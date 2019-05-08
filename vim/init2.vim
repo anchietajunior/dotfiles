@@ -31,6 +31,7 @@ Plug 'vim-ruby/vim-ruby'
 Plug 'tpope/vim-rake'
 Plug 'janko-m/vim-test'
 Plug 'ecomba/vim-ruby-refactoring'
+Plug 'tpope/vim-endwise'
 
 Plug 'tpope/vim-commentary'
 Plug 'airblade/vim-gitgutter'

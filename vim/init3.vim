@@ -119,7 +119,6 @@ let g:airline#extensions#tabline#enabled = 1
 
 let mapleader=','
 nmap <leader>m :FZF<CR>
-nmap <leader>/ :NERDTreeToggle<CR>
 nmap <Leader>f :Ag<space>
 nmap <Leader>t :tabnew<CR>
 nmap <Leader>z :u<CR>

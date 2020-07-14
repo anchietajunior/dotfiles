@@ -5,4 +5,4 @@
 	email = santosjr87@gmail.com
 [alias]
 	s = !git status -s
-	c = !git add . && git commit -m
+	c = !git add --all && git commit -m

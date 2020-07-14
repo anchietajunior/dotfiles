@@ -6,3 +6,4 @@
 [alias]
 	s = !git status -s
 	c = !git add --all && git commit -m
+	j = !git add --all && git commit --amend --no-edit

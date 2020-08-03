@@ -74,6 +74,7 @@ set laststatus=2
 
 let g:NERDTreeShowBookmarks=1
 let g:nerdtree_tabs_focus_on_files=1
+let NERDTreeShowHidden=1
 
 " Airline
 let g:airline#extensions#tabline#enabled = 1

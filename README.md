@@ -1,6 +1,4 @@
-📜 
-
-# Dot files
+# Dot files 📜 
 
 ## Configuring Neovim
 

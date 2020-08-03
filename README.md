@@ -22,6 +22,13 @@ nvim ~/.config/nvim/init.vim
 
 :PlugInstall to install plugins and :PlugClean to clean Plugins.
 
+
+## Neovim Commands
+
+### Vim Commentary
+
+gc + ➡️ ⬅️ ⬆️ ⬇️
+
 ## Git usefull commands
 
 Join staged files with the last commit

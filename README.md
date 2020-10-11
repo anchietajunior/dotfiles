@@ -22,6 +22,15 @@ nvim ~/.config/nvim/init.vim
 
 :PlugInstall to install plugins and :PlugClean to clean Plugins.
 
+### Clone or download vim files
+
+Download files inside noevim files to:
+
+```sh
+cd ~/.config/nvim/
+```
+
+Run PlugInstall again.
 
 ## Neovim Commands
 

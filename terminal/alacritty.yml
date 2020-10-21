@@ -1,0 +1,48 @@
+env:
+  TERM: xterm-256color
+window:
+  startup_mode: Maximized
+  decorations: full
+  dimensions:
+    columns: 100
+    lines: 30
+  padding:
+    x: 10
+    y: 10
+scrolling:
+  history: 10000
+  multiplier: 3
+draw_bold_text_with_bright_colors: true
+
+font:
+  normal:
+    family: Hack Nerd Font
+  bold:
+    family: Hack Nerd Font
+  italic:
+    family: Hack Nerd Font
+  size: 22.0 # 16.0
+  # Offset is the extra space around each character. offset.y can be thought of
+  # as modifying the linespacing, and offset.x as modifying the letter spacing.
+  offset:
+    x: 0
+    y: 0
+  # Glyph offset determines the locations of the glyphs within their cells with
+  # the default being at the bottom. Increase the x offset to move the glyph to
+  # the right, increase the y offset to move the glyph upward.
+  glyph_offset:
+    x: 0
+    y: 0
+
+bell:
+  animation: EaseOutExpo
+  duration: 0 # disabled
+background_opacity: 1.0
+
+mouse_bindings:
+  - { mouse: Middle, action: PasteSelection }
+mouse:
+  double_click: { threshold: 300 }
+  triple_click: { threshold: 300 }
+
+live_config_reload: true

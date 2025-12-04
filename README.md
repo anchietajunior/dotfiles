@@ -1,48 +1,13 @@
 # Dot files 📜 
 
-## Configuring Neovim
+## Install Brew
 
 ```sh
-touch ~/.config/nvim/init.vim
-# paste content of vim/init.vim
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-### Install VimPlug
+## Install apps with Brew
 
 ```sh
-sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
-       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
-```
-
-```sh
-nvim ~/.config/nvim/init.vim
-```
-
-### Plugins
-
-:PlugInstall to install plugins and :PlugClean to clean Plugins.
-
-### Clone or download vim files
-
-Download files inside noevim files to:
-
-```sh
-cd ~/.config/nvim/
-```
-
-Run PlugInstall again.
-
-## Neovim Commands
-
-### Vim Commentary
-
-gc + ➡️ ⬅️ ⬆️ ⬇️
-
-## Git usefull commands
-
-Join staged files with the last commit
-
-```
-git add .
-git commit --amend --no-edit
+brew bundle
 ```

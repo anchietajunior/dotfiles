@@ -31,12 +31,13 @@ alias server="bin/dev"
 # WORK
 alias ll="cd ~/Documents/Dev/lightlabs/platform"
 
-source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-
 # Starship
 STARSHIP_CONFIG=${HOME}/.config/starship.toml
 eval "$(starship init zsh)"
 
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
 # Activate Mise
 eval "$(mise activate zsh)"
+

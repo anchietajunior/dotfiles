@@ -1,12 +1,9 @@
 [color]
 	ui = true
 [user]
-	name = Anchieta Júnior
+	name = José Anchieta
 	email = santosjr87@gmail.com
+[push]
+	autoSetupRemote = true
 [merge]
-	tool = vscode
-[alias]
-	s = !git status -s
-	c = !git add --all && git commit -m
-	j = !git add --all && git commit --amend --no-edit
-	l = !git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	tool = cursor

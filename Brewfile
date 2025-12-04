@@ -1,18 +1,27 @@
+tap "homebrew/cask"
+tap "homebrew/core"
+
+# Terminal setup
+brew "git"
+brew "starship"
+brew "zsh-autosuggestions"
+brew "zsh-syntax-highlighting"
+
 brew "openssl@3"
 brew "gmp"
 brew "rust"
 brew "gh"
 brew "postgresql"
-brew "libpq"        # PostgreSQL C API library
+brew "libpq"
 brew "libyaml"
-brew "mise"         # Polyglot runtime manager (successor to asdf)
-brew "neovim"       # Modern vim-based text editor
-brew "sqlite"       # Lightweight SQL database engine
+brew "mise"
+brew "neovim"
+brew "sqlite"
 
 # Applications
-cask "1password"         # Password manager
-cask "1password-cli"     # 1Password CLI for secrets management
-cask "chatgpt"           # OpenAI ChatGPT desktop app
+cask "1password"
+cask "1password-cli"
+cask "chatgpt"
 cask "docker"
 cask "slack"
 cask "spotify"

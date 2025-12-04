@@ -1,0 +1,105 @@
+format = """
+$directory\
+$git_branch\
+$git_status\
+$c\
+$elixir\
+$golang\
+$java\
+$nodejs\
+$python\
+$rust\
+$docker_context\
+$fill\
+$ruby\
+$cmd_duration $time\
+$line_break\
+$character"""
+
+[fill]
+symbol = " "
+
+[cmd_duration]
+min_time = 2_000
+style = "italic dark_gray"
+format = "levou [$duration]($style) "
+
+[jobs]
+symbol = ""
+style = "bold red"
+number_threshold = 4
+symbol_threshold = 0
+
+[time]
+disabled = false
+style = "bold white"
+format = "[$time]($style)"
+
+[character]
+success_symbol = "[➜](bold green)"
+error_symbol = "[➜](bold red)"
+vicmd_symbol = "[❮](bold blue)" # Para quem usa modo VI
+
+# --- Configuração dos Módulos ---
+[directory]
+style = "blue"
+truncation_length = 2
+truncate_to_repo = false
+
+[git_branch]
+symbol = " "
+style = "bold green"
+
+[git_status]
+style = "red"
+conflicted = "🏳"
+ahead = "⇡${count}"
+behind = "⇣${count}"
+diverged = "⇕⇡${ahead_count}⇣${behind_count}"
+up_to_date = "✓"
+untracked = "?"
+stashed = "$"
+modified = "!"
+staged = "+"
+renamed = "»"
+deleted = "✘"
+
+# Linguagens e Ferramentas (Usando cores da paleta para consistência)
+
+[c]
+symbol = " "
+style = "bold yellow"
+
+[docker_context]
+symbol = " "
+style = "bold blue"
+
+[elixir]
+symbol = " "
+style = "bold purple"
+
+[golang]
+symbol = " "
+style = "bold cyan"
+
+[java]
+symbol = " "
+style = "bold red"
+
+[nodejs]
+symbol = " "
+style = "bold green"
+
+[python]
+symbol = " "
+style = "bold yellow"
+
+[ruby]
+symbol = " "
+style = "bold red"
+format = "[$symbol($version )]($style)"
+
+[rust]
+symbol = " "
+style = "bold dark_gray"
+

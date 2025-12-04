@@ -2,7 +2,12 @@ STARSHIP_CONFIG=${HOME}/.config/starship.toml
 eval "$(starship init zsh)"
 
 # PLUGINS
-plugins=(git zsh-autosuggestions)
+plugins=(
+  git
+  zsh-completions
+  zsh-autosuggestions
+  zsh-syntax-highlighting
+)
 
 # ALIASES
 

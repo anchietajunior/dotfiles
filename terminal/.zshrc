@@ -1,6 +1,3 @@
-STARSHIP_CONFIG=${HOME}/.config/starship.toml
-eval "$(starship init zsh)"
-
 # PLUGINS
 plugins=(
   git
@@ -38,7 +35,15 @@ alias c="cursor ."
 alias rc="rails console"
 alias rubo="bundle exec rubocop -A"
 
+# WORK
+alias ll="cd ~/Documents/Dev/lightlabs/platform"
+
 source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
-eval "$(~/.local/bin/mise activate)"
+# Starship
+STARSHIP_CONFIG=${HOME}/.config/starship.toml
+eval "$(starship init zsh)"
+
+# Activate Mise
+eval "$(mise activate zsh)"

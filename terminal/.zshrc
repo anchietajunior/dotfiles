@@ -15,22 +15,18 @@ alias insomnia='open /Applications/Insomnia.app'
 alias slack='open /Applications/Slack.app'
 
 # GIT AND DEV
+alias g="git"
 alias gss="git status -s"
-alias gsm="git switch main"
-alias gcl="git switch -"
-alias gpr="git pull --rebase"
-alias gsc="git switch -c"
-alias gst="git switch"
-alias gprm="gcm && git pull --rebase && gcl"
-alias gs="git stash"
-alias gsp="git stash pop"
-alias grm="git rebase main"
-alias gpf="git push --force"
+alias gsw="git switch"
 alias gp="git push"
+alias gpf="git push --force-with-lease"
 alias n="nvim ."
 alias c="cursor ."
+
+# RAILS
 alias rc="rails console"
-alias rubo="bundle exec rubocop -A"
+alias rubocop="bundle exec rubocop -A"
+alias server="bin/dev"
 
 # WORK
 alias ll="cd ~/Documents/Dev/lightlabs/platform"
